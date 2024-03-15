@@ -7,7 +7,7 @@ class Index{
 
 public function fun(){
 
-echo "This is from fun fun ";
+echo "This is from fun fun git git ";
 
 }
 
