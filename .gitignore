@@ -1,0 +1,5 @@
+# Ignore vendor folder
+vendor/
+
+# Ignore .env file inside the app directory
+app/.env

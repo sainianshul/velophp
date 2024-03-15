@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Exclude existing directories and files from redirection
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Redirect all other requests to index.php
+RewriteRule ^(.*)$ index.php
