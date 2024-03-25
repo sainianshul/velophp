@@ -36,56 +36,8 @@ echo "This is store here ";
 public function mail(){
 
 
-// // Create a new PHPMailer instance
-// $mail = new \PHPMailer\PHPMailer\PHPMailer();
-
-// // Set PHPMailer to use SMTP
-// $mail->isSMTP();
-
-// // Enable SMTP debugging
-// // 0 = off (for production use)
-// // 1 = client messages
-// // 2 = client and server messages
-// $mail->SMTPDebug = 0;
-
-// // Set the hostname of the mail server
-// $mail->Host = 'smtp.gmail.com';
-
-// // Enable SMTP authentication
-// $mail->SMTPAuth = true;
-
-// // SMTP username (your Gmail email address)
-// $mail->Username = 'anshulsainionline@gmail.com';
-
-// // SMTP password (your Gmail password or App Password)
-// $mail->Password = 'cckakankxmfbrerp';
-
-// // Enable TLS encryption
-// $mail->SMTPSecure = 'tls';
-
-// // Set the SMTP port (465 for SSL, 587 for TLS)
-// $mail->Port = 587;
-
-// // Set the sender and recipient email addresses
-// $mail->setFrom('Velo PHP', 'Anshul Saini');
-// $mail->addAddress('anshulsaini554@gmail.com', 'ANshul 554');
-
-//  $mail->isHTML(true);
-// // Set email subject and body
-// $mail->Subject = 'Test Email via Gmail SMTP';
-// $mail->Body  = View::getRender('verification.twig',['name' => 'Pappan', 'verification_code' => '12345']);
-
-
-// // Send the email
-// if (!$mail->send()) {
-//     echo 'Error: ' . $mail->ErrorInfo;
-// } else {
-//     echo 'Email has been sent successfully!';
-// }
-
-
  //  $mail = new Mailer;
- // var_dump($mail->to('anshulsaini554@gmail.com')
+ // var_dump($mail->to('user@.com')
  //       ->subject('This is Testing Mail')
  //       ->template('VerificationMail.twig',['name'=>'Anshul','verification_code'=> 'n3dy9r7irgfh39'])
  //       ->send());
