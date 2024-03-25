@@ -18,7 +18,7 @@ This is a simple PHP MVC (Model-View-Controller) framework designed to provide a
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/simple-php-mvc-framework.git
+    git clone  https://github.com/sainianshul/velopphp
     ```
 
 2. Configure your web server to point to the `public` directory.
